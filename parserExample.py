@@ -16,7 +16,5 @@ from pathlib import Path
 def runExample():
 	parser = PDFParser.PDFParser()
 	parser.parseInfo("jacobDPR.pdf")
-	# return parser.student.toJSON()
-	for line in range (len(parser.student.coursesTaken)):
-		courses = courses + (parser.student.coursesTaken[line])
-	return courses
+ 
+	return parser.student.toJSON()
