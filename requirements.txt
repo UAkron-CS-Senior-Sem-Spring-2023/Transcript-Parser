@@ -1,0 +1,4 @@
+PyPDF2
+PyCryptodome
+Flask
+redis
