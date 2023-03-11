@@ -1,6 +1,6 @@
 FROM python:3.7-alpine
 WORKDIR /Transcript-Parser
-ENV FLASK_APP=parserExample.py
+ENV FLASK_APP=parseEndpoint.py
 ENV FLASK_RUN_HOST=0.0.0.0
 RUN apk add --no-cache gcc musl-dev linux-headers
 COPY requirements.txt requirements.txt
